@@ -4,7 +4,7 @@ import javax.swing.*;
 
 /**
  * Created by VFilin on 06.04.2017.
- * BranchTest2
+ * BranchTest3
  */
 public class BBTest {
     private BangBean bangBean;
