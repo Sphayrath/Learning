@@ -1,0 +1,42 @@
+1: }
+2:     }
+3:         }
+4:             System.out.println("File not found");
+5:         } catch (FileNotFoundException e) {
+6:             out.close();
+7:                 out.println(lineCount++ + ": " + listIterator.previous());
+8:             while (listIterator.hasPrevious())
+9:             PrintWriter out = new PrintWriter(outFile);
+10:         try {
+11:         int lineCount = 1;
+12: 
+13:         }
+14:             System.out.println("File not found");
+15:         } catch (FileNotFoundException e) {
+16:             }
+17:                 System.out.println("IO exception");
+18:             } catch (IOException e) {
+19:                 reader.close();
+20:                     listIterator.add(str);
+21:                 while ((str = reader.readLine()) != null)
+22:             try {
+23:             reader = new BufferedReader(new FileReader(file));
+24:         try {
+25: 
+26:         ListIterator<String> listIterator = list.listIterator();
+27:         LinkedList<String> list = new LinkedList<>();
+28:         String str;
+29:         BufferedReader reader;
+30:         File outFile = new File("Task18_2.txt");
+31:         File file = new File("D:\\SkyDrive\\Документы\\Learning\\src\\IO\\Task18_2.java");
+32:     public static void main (String[] args) {
+33: public class Task18_2 {
+34:  */
+35:  * Created by Vlad on 14.05.2016.
+36: /**
+37: 
+38: import java.util.ListIterator;
+39: import java.util.LinkedList;
+40: import java.io.*;
+41: 
+42: package IO;

@@ -1,0 +1,23 @@
+1: package IO;
+2: 
+3: import net.mindview.util.RandomGenerator;
+4: 
+5: import java.io.*;
+6: 
+7: /**
+8:  * Created by Vlad on 14.05.2016.
+9:  */
+10: public class BasicFileOutput {
+11:     static String file = "BasicFileOutput.out";
+12: 
+13:     public static void  main (String[] args) throws IOException {
+14:         BufferedReader in = new BufferedReader (new StringReader(
+15:                 BufferedInputFile.read("D:\\SkyDrive\\Документы\\Learning\\src\\IO\\BasicFileOutput.java")));
+16:         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(file)));
+17:         int lineCount = 1;
+18:         String s;
+19:         while ((s = in.readLine()) != null)
+20:             out.println(lineCount++ + ": " + s);
+21:         out.close();
+22:     }
+23: }
